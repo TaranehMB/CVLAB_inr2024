@@ -1,1 +1,1 @@
-# CVLAB_inr2024
+# Visualizing INRs of Shapes
