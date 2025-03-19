@@ -10,4 +10,4 @@ The code contained in this repository has been tested on ubuntu 22.04 with pytho
 
 ## Setup
 
-The setup necessary for running the codes within this repository, follow the same procedure that can be found in [CVlab official **inr2vec** repository](https://github.com/CVLAB-Unibo/inr2vec).
+The setup necessary for running the codes within this repository, follows the same procedure found in [CVlab official **inr2vec** repository](https://github.com/CVLAB-Unibo/inr2vec).
