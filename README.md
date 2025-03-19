@@ -38,4 +38,7 @@ Finally the last dependencies can be installed by running the following line of 
 ```
 $ pip install hesiod torchmetrics wandb h5py==3.0.0
 ```
-
+## Visualizing the INRs
+The main branch of the repository, contains three seperate codes, each for visualizing a different implicit neural representation of a 3D shape, along with a `utils.py`
+script which the visualization codes import to operate effectively. 
+The three folders present in the repository, each contain a specific amount of INRs trained on a different 3D shape. I will now get into the details of executing the codes provided on either the available dataset or an alternative dataset with the same structure. 
