@@ -34,5 +34,8 @@ ModuleNotFoundError: PyTorch is not installed. Install it by running: source /XX
 ```
 The script following the Module error, downloads and installs the wheels for torch, torchvision, pytorch3d and torch-geometric. In case there is an error regarding the installation of pytorch3d, it can be installed manually. 
 
-
+Finally the last dependencies can be installed by running the following line of code. It is likely that a compatibility error is raised regarding the wandb version. In that case, you can install the newer version which gets suggested.
+```
+$ pip install hesiod torchmetrics wandb h5py==3.0.0
+```
 
