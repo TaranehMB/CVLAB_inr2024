@@ -32,6 +32,7 @@ $ import pycarus
 ...
 ModuleNotFoundError: PyTorch is not installed. Install it by running: source /XXX/.venv/lib/python3.8/site-packages/pycarus/install_torch.sh
 ```
+The script following the Module error, downloads and installs the wheels for torch, torchvision, pytorch3d and torch-geometric. In case there is an error regarding the installation of pytorch3d, it can be installed manually. 
 
 
 
