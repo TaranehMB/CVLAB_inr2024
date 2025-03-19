@@ -21,3 +21,8 @@ $ pip install pycarus
 ```
 
 Or alternatively, in case you want to have your virtual environment operate a specific version of python compatible with 'pycarus', you can make the virtual environment via conda (by either having conda or miniconda installed) as follows:
+```
+$ conda create -n env-name python=3.8.6
+$ conda activate env-name
+$ pip install pycarus
+```
