@@ -26,3 +26,12 @@ $ conda create -n env-name python=3.8.6
 $ conda activate env-name
 $ pip install pycarus
 ```
+Then, by trying to import `pycarus`, you would get the command for installing torch:
+```
+$ import pycarus
+...
+ModuleNotFoundError: PyTorch is not installed. Install it by running: source /XXX/.venv/lib/python3.8/site-packages/pycarus/install_torch.sh
+```
+
+
+
