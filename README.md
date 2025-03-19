@@ -12,12 +12,12 @@ The code contained in this repository has been tested on ubuntu 22.04 with pytho
 
 The setup necessary for running the codes within this repository, follows the same procedure found in [CVlab official **inr2vec** repository](https://github.com/CVLAB-Unibo/inr2vec).
 
-First, create a virtual environment for installing 'pycarus' library. This procedure can be directly done via python's API, following the procedure below:
-'''
+First, create a virtual environment for installing `pycarus` library. This procedure can be directly done via python's API, following the procedure below:
+```
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 $ pip install -U pip setuptools
 $ pip install pycarus
-'''
+```
 
 Or alternatively, in case you want to have your virtual environment operate a specific version of python compatible with 'pycarus', you can make the virtual environment via conda (by either having conda or miniconda installed) as follows:
